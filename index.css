@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+nav{
+    background-color: springgreen;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.basic{
+    /* background-color: white; */
+    width: 55%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.basic input{
+    width: 90%;
+    height: 70%;
+    padding-left: 7px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+}
+.basic button{
+    background-color: springgreen;
+    border: none;
+    width: 90%;
+    height: 70%;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+}
+.budgets{
+    /* background-color: white; */
+    width: 65%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.budgwrp{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    gap: 2px;
+}
+.budgwrp p{
+    font-weight: 700;
+    font-size: 13px;
+}
+.results{
+    border: none;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.other{
+    /* background-color: white; */
+    width: 50%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.othwrp{
+    /* background-color: red; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.othwrp p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.tspent, .hspent, .remnder{
+    background-color: white;
+    height: 55%;
+    width: 100%;
+}
