@@ -106,3 +106,35 @@ nav{
     height: 55%;
     width: 100%;
 }
+@media screen and (max-width:905px) {
+    .budgets{
+        height: 300px;
+    }
+    .othwrp{
+        height: 70px;
+    }
+}
+@media screen and (max-width:567px){
+    .basic{
+        width: 80%;
+    }
+    .budgets{
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+        height: 400px;
+    }
+    .other{
+        width: 90%;
+    }
+}
+@media screen and (max-width:330px){
+    .basic{
+        width: 100%;
+    }
+    .basic input{
+        font-size: 10px;
+    }
+    .othwrp p{
+        font-size: 10px;
+    }
+}
